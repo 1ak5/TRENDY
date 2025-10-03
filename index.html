@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRENDY - Fashion Brand</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>TRENDY</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#normal">Normal</a></li>
+                <li><a href="#premium">Premium</a></li>
+                <li><a href="#custom">Customise</a></li>
+                <li><a href="#referral">Referral</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-preview-images">
+                    <div class="preview-card">
+                        <img src="hero1.png" alt="Product 1">
+                    </div>
+                    <div class="preview-card">
+                        <img src="hero2.png" alt="Product 2">
+                    </div>
+                    <div class="preview-card">
+                        <img src="hero3.png" alt="Product 3">
+                    </div>
+                </div>
+                <h1 class="hero-title">
+                    <span class="word">Introducing</span>
+                   
+                    <span class="word">TRENDY</span>
+                </h1>
+                <p class="hero-subtitle">Premium college wear by TRENDY for bold, creative students.</p>
+                <div class="hero-cta">
+                    <button class="cta-btn primary">Shop</button>
+                    <button class="cta-btn secondary">Customise Your Style</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <div class="card-3d">
+                        <img src="hero1.png" alt="Product 1">
+                    </div>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="card-3d">
+                        <img src="hero2.png" alt="Product 2">
+                    </div>
+                </div>
+                <div class="floating-card card-3">
+                    <div class="card-3d">
+                        <img src="hero3.png" alt="Product 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Trending Banner -->
+    <section class="trending-section">
+        <div class="container">
+            <h2 class="section-title">🔥 TRENDY is on Every-Trend 🔥</h2>
+            <div class="slider-indicator">
+                <span class="scroll-hint">← Swipe to explore more →</span>
+                <div class="scroll-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+            <div class="trending-slider" id="trendingSlider">
+                <div class="slider-container">
+                    <div class="slider-item">
+                        <img src="img4.png" alt="Trendy Style 4">
+                    </div>
+                    
+                    <div class="slider-item">
+                        <img src="img1.png" alt="Trendy Style 1">
+                    </div>
+                    
+                    <div class="slider-item">
+                        <img src="img2.png" alt="Trendy Style 2">
+                    </div>
+                    <div class="slider-item">
+                        <img src="img12.png" alt="Trendy Style 5">
+                    </div>
+                    <div class="slider-item">
+                        <img src="img9.png" alt="Trendy Style 9">
+                    </div>
+                    <div class="slider-item">
+                        <img src="img3.png" alt="Trendy Style 3">
+                    </div>
+                    
+                    
+                    <div class="slider-item">
+                        <img src="img6.png" alt="Trendy Style 6">
+                    </div>
+                   
+                    <div class="slider-item">
+                        <img src="img8.png" alt="Trendy Style 8">
+                    </div>
+                    <div class="slider-item">
+                        <img src="img9.png" alt="Trendy Style 9">
+                    </div>
+                    <div class="slider-item">
+                        <img src="img1.png" alt="Trendy Style 1">
+                    </div>
+                    <div class="slider-item">
+                        <img src="img2.png" alt="Trendy Style 2">
+                    </div>
+                    <div class="slider-item">
+                        <img src="img3.png" alt="Trendy Style 3">
+                    </div>
+                    <div class="slider-item">
+                        <img src="img4.png" alt="Trendy Style 4">
+                    </div>
+                    <div class="slider-item">
+                        <img src="img12.png" alt="Trendy Style 5">
+                    </div>
+                    <div class="slider-item">
+                        <img src="img6.png" alt="Trendy Style 6">
+                    </div>
+                   
+                    <div class="slider-item">
+                        <img src="img8.png" alt="Trendy Style 8">
+                    </div>
+                    
+                    <div class="slider-item">
+                        <img src="img1.png" alt="Trendy Style 1">
+                    </div>
+                    <div class="slider-item">
+                        <img src="img2.png" alt="Trendy Style 2">
+                    </div>
+                    <div class="slider-item">
+                        <img src="img3.png" alt="Trendy Style 3">
+                    </div>
+                    <div class="slider-item">
+                        <img src="img4.png" alt="Trendy Style 4">
+                    </div>
+                    <div class="slider-item">
+                        <img src="img12.png" alt="Trendy Style 5">
+                    </div>
+                    <div class="slider-item">
+                        <img src="img6.png" alt="Trendy Style 6">
+                    </div>
+                   
+                    <div class="slider-item">
+                        <img src="img8.png" alt="Trendy Style 8">
+                    </div>
+                    <div class="slider-item">
+                        <img src="img9.png" alt="Trendy Style 9">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Cards -->
+    <section id="categories" class="categories-section">
+        <div class="container">
+            <h2 class="section-title">Choose Your Style</h2>
+            <div class="categories-grid">
+                <div class="category-card" data-category="normal" onclick="scrollToSection('normal')">
+                    <div class="category-overlay"></div>
+                    <div class="category-content">
+                        <h3>Normal</h3>
+                        <p>Budget-friendly essentials with minimal prints</p>
+                        <span class="category-price">Starting at ₹299</span>
+                    </div>
+                    <div class="category-bg"></div>
+                </div>
+                <div class="category-card premium-card" data-category="premium" onclick="scrollToSection('premium')">
+                    <div class="category-overlay"></div>
+                    <div class="category-content">
+                        <h3>Premium</h3>
+                        <p>High-quality embroidered designs on soft fabric</p>
+                        <span class="category-price">Starting at ₹799</span>
+                    </div>
+                    <div class="category-bg"></div>
+                </div>
+                <div class="category-card custom-card" data-category="custom" onclick="scrollToSection('custom')">
+                    <div class="category-overlay"></div>
+                    <div class="category-content">
+                        <h3>Customisable</h3>
+                        <p>Design your own unique piece</p>
+                        <span class="category-price">Starting at ₹499</span>
+                    </div>
+                    <div class="category-bg"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Normal Section -->
+    <section id="normal" class="products-section normal-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Normal Collection</h2>
+                <p class="section-subtitle">Classic TRENDY designs, unbeatable prices</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img1.png" alt="Classic Black Tee">
+                    </div>
+                    <div class="product-info">
+                        <h3>TRENDY Classic White Tee</h3>
+                        <p>Minimal black print, soft cotton</p>
+                        <div class="product-price">₹299</div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img2.png" alt="Urban Style Tee">
+                    </div>
+                    <div class="product-info">
+                        <h3>TRENDY Urban Style</h3>
+                        <p>Street wear inspired design</p>
+                        <div class="product-price">₹349</div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img3.png" alt="Campus Comfort">
+                    </div>
+                    <div class="product-info">
+                        <h3>TRENDY Campus Comfort</h3>
+                        <p>Perfect for college life</p>
+                        <div class="product-price">₹399</div>
+                    </div>
+                </div>
+
+                <div class="shop-more">
+                    <a href="#" target="_blank" class="shop-more-btn">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Section -->
+    <section id="premium" class="products-section premium-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Premium Collection</h2>
+                <p class="section-subtitle">Luxury comfort meets TRENDY style</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img4.png" alt="Premium Collection">
+                    </div>
+                    <div class="product-info">
+                        <h3>TRENDY Elite Collection</h3>
+                        <p>Premium embroidered design</p>
+                        <div class="product-price">₹899</div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img12.png" alt="Luxury Line">
+                    </div>
+                    <div class="product-info">
+                        <h3>TRENDY Luxury Line</h3>
+                        <p>Premium fabric, premium style</p>
+                        <div class="product-price">₹1299</div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img6.png" alt="Designer Series">
+                    </div>
+                    <div class="product-info">
+                        <h3>TRENDY Designer Series</h3>
+                        <p>Exclusive patterns, top-tier finish</p>
+                        <div class="product-price">₹999</div>
+                    </div>
+                </div>
+
+                <div class="shop-more">
+                    <a href="#" target="_blank" class="shop-more-btn">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customisable Section -->
+    <section id="custom" class="custom-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Create Your Own</h2>
+                <p class="section-subtitle">Design a piece that's uniquely yours</p>
+            </div>
+            <div class="custom-editor">
+                <div class="editor-sidebar">
+                    <h3>Customisation Options</h3>
+                    
+                    <div class="option-group">
+                        <label>Choose Base Product</label>
+                        <select id="baseProduct">
+                            <option value="tshirt">T-Shirt</option>
+                            <option value="hoodie">Hoodie</option>
+                        </select>
+                    </div>
+
+                    <div class="option-group">
+                        <label>Choose Color</label>
+                        <div class="color-picker">
+                            <div class="color-option" data-color="#000000" style="background: #000000;"></div>
+                            <div class="color-option" data-color="#FFFFFF" style="background: #FFFFFF; border: 1px solid #ddd;"></div>
+                            <div class="color-option" data-color="#FF6B6B" style="background: #FF6B6B;"></div>
+                            <div class="color-option" data-color="#4ECDC4" style="background: #4ECDC4;"></div>
+                            <div class="color-option" data-color="#FFE66D" style="background: #FFE66D;"></div>
+                            <div class="color-option" data-color="#95E1D3" style="background: #95E1D3;"></div>
+                        </div>
+                    </div>
+
+                    <div class="option-group">
+                        <label>Add Text</label>
+                        <input type="text" id="customText" placeholder="Your name or text">
+                        <button class="btn-action" onclick="addText()">Add Text</button>
+                    </div>
+
+                    <div class="option-group">
+                        <label>Upload Logo/Image</label>
+                        <input type="file" id="logoUpload" accept="image/*">
+                        <button class="btn-action" onclick="uploadLogo()">Add Logo</button>
+                    </div>
+
+                    <div class="option-group">
+                        <button class="btn-primary" onclick="saveDesign()">Save Design</button>
+                        <button class="btn-secondary" onclick="resetCanvas()">Reset</button>
+                    </div>
+                </div>
+
+                <div class="editor-canvas-wrapper">
+                    <div class="canvas-container">
+                        <canvas id="customCanvas" width="500" height="600"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Referral Section -->
+    <section id="referral" class="referral-section">
+        <div class="container">
+            <div class="referral-card">
+                <div class="referral-content">
+                    <h2>Get 10% Off with Referral Code</h2>
+                    <p>Share the vibe with friends and get exclusive discounts!</p>
+                    <div class="referral-input-group">
+                        <input type="text" id="referralCode" placeholder="Enter referral code">
+                        <button class="btn-apply" onclick="applyReferral()">Apply</button>
+                    </div>
+                    <div id="referralMessage" class="referral-message"></div>
+                </div>
+                <div class="referral-visual">
+                    <div class="discount-badge">
+                        <span class="badge-text">10% OFF</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="social-section">
+        <div class="container">
+            <h2 class="section-title">Follow TRENDY</h2>
+            <p class="section-subtitle">@trendy on Instagram</p>
+            <div class="social-grid">
+                <div class="social-card">
+                    <img src="image1.jpg" alt="Social 1">
+                    <div class="social-overlay">
+                        <span>❤️ 1.2k</span>
+                    </div>
+                </div>
+                <div class="social-card">
+                    <img src="image2.jpg" alt="Social 2">
+                    <div class="social-overlay">
+                        <span>❤️ 890</span>
+                    </div>
+                </div>
+                <div class="social-card">
+                    <img src="image3.jpg" alt="Social 3">
+                    <div class="social-overlay">
+                        <span>❤️ 2.1k</span>
+                    </div>
+                </div>
+                <div class="social-card">
+                    <img src="image4.jpg" alt="Social 4">
+                    <div class="social-overlay">
+                        <span>❤️ 1.5k</span>
+                    </div>
+                </div>
+            </div>
+            <div class="social-cta">
+                <a href="https://instagram.com" target="_blank" class="social-btn">
+                    Follow on Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>TRENDY</h3>
+                    <p>Express your college vibe with TRENDY. Premium quality t-shirts designed for the bold and creative students who want to stand out.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+                        <a href="#" class="social-icon" aria-label="Facebook">📘</a>
+                        <a href="#" class="social-icon" aria-label="Twitter">🐦</a>
+                        <a href="#" class="social-icon" aria-label="WhatsApp">💬</a>
+                    </div>
+                </div>
+                <div class="footer-links-container">
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#normal">Normal Collection</a></li>
+                            <li><a href="#premium">Premium Collection</a></li>
+                            <li><a href="#custom">Customise</a></li>
+                            <li><a href="#referral">Referral Program</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">Size Guide</a></li>
+                            <li><a href="#">Shipping Info</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>📧 hello@trendy.com</li>
+                        <li>📱 +91 98765 43210</li>
+                        <li>📍 Mumbai, India</li>
+                        <li>⏰ Mon-Fri: 9AM-6PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TRENDY. All rights reserved.</p></br>
+                <p>-by Aditya Suryawanshi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Add Cart drawer UI -->
+    <aside id="cartDrawer" class="cart-drawer" aria-hidden="true">
+        <div class="cart-drawer-header">
+            <h3>Your TRENDY Cart</h3>
+            <button id="closeCart" aria-label="Close Cart">✕</button>
+        </div>
+        <div id="cartItems" class="cart-items"></div>
+        <div class="cart-summary">
+            <div class="cart-row"><span>Subtotal</span><span id="cartSubtotal">₹0</span></div>
+            <div class="cart-row"><span>Discount</span><span id="cartDiscount">₹0</span></div>
+            <div class="cart-row total"><span>Total</span><span id="cartTotal">₹0</span></div>
+            <div class="cart-actions">
+                <button id="clearCart" class="btn-secondary">Clear Cart</button>
+                <button id="checkoutBtn" class="btn-primary">Checkout (Demo)</button>
+            </div>
+        </div>
+    </aside>
+
+    <script src="app.js"></script>
+</body>
+</html>
